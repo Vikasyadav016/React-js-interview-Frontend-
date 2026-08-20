@@ -3,6 +3,7 @@ import './App.css';
 import EmployeeICard from './EmployeeICard';
 import MarkSheetFormatDownloadPdf from './MarksheetFormatDownloadPdf';
 import Rainbow from './RRRRandam/Rainbow';
+import VehicleSpeedTrackingWithReport from './SpeedTrackingWithReport';
 import StudentICard from './StudentICard';
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
       <header className="App-header">
         {/* <Rainbow /> */}
         {/* <MarkSheetFormatDownloadPdf /> */}
+        <VehicleSpeedTrackingWithReport />
         {/* <AdmitCard /> */}
-        <StudentICard />
-        <EmployeeICard />
+        {/* <StudentICard />
+        <EmployeeICard /> */}
 
       </header>
     </div>
