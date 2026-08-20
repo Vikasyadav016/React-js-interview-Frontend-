@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import MarkSheetFormatDownloadPdf from './MarksheetFormatDownloadPdf';
+import Rainbow from './RRRRandam/Rainbow';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Rainbow /> */}
+        <MarkSheetFormatDownloadPdf />
+
       </header>
     </div>
   );
